@@ -1,8 +1,13 @@
 import React from 'react'
+import WelcomeBanner from './components/welcomeBanner'
+import CourseList from './components/courseList'
 
 const Workspace = () => {
   return (
-    <div>Workspace</div>
+    <div>
+      <WelcomeBanner/>
+      <CourseList/>
+    </div>
   )
 }
 

@@ -1,4 +1,4 @@
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
+import { SidebarProvider } from '@/components/ui/sidebar'
 import React from 'react'
 import AppSidebar from './components/appSidebar'
 import AppHeaader from './components/appHeaader'
@@ -9,7 +9,6 @@ const layout = ({children}) => {
     <SidebarProvider>
       <AppSidebar/>
         <div className='w-full'>
-        
         <AppHeaader/>
         {children}
         </div>

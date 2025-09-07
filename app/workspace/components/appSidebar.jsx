@@ -90,7 +90,7 @@ const AppSidebar = () => {
               {sideBarOptions.map((item, index) => (
                 <SidebarMenuItem key={index}>
                   <SidebarMenuButton asChild className='p-6'>
-                    <Link href={item.link} className={`font-medium text-[17px] ${path.includes(item.link) && 'text-primary bg-blue-200'}`}>
+                    <Link href={item.link} className={`font-medium text-[17px] ${path.includes(item.link) && 'text-primary bg-blue-200 '}`}>
                       <item.icon className='h-7 w-7' />
                       <span>{item.title}</span>
                     </Link>
